@@ -1,25 +1,79 @@
 .div_container{
-    wigth:10%;
-    /*  */
-    height: 100%;
-    background: pink;
-    border: 1px;
+    width: 10%;
+    height: 100vw;
+    background: rgb(242, 79, 160);
+    color: azure;
+    border: 1px solid blue;
     margin-left: 5%;
-    /* отступ */
     padding-top: 2%;
-    /*  */
+}
 
-
+h1{
+    color: black!important;
+    font-size: 3vw;
+    margin: 3% auto;
+    width: 70%;
 }
 
 nav{
-    background-color: rgb(171, 171, 171);
+    background: #f9f9f9;
+    width: 250px;
+    position: fixed;
+    top: 45px;
+    left: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0.2;
+    transition: all 0.5s ease;
+}
 
-    
+nav:hover{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+nav > li > a {
+    font-size: 1vw;
+}
+
+p{
+    margin-top: 0.5%;
+}
+
+ h2, h3, p, ul, ol, div, img , hr {
+    width: 70%;
+    margin: 0px auto;
 }
 
 .img_apart{
     width: 70%;
-    margin-left:15%;
-    margin-top: 1%;
+    margin-left: 15% ;
+    margin-top: 2%;
+}
+
+h1 + p{
+    margin-top: 8px;
+    line-height: 32px;
+    font-size: 22px;
+    color: rgb(30, 30, 30);
+}
+
+blockquote{
+    margin-top: 30px;
+    margin-left: 20%;
+    border-left: 1px solid pink;
+    width: 60%;
+    padding: 1%;
+}
+
+.container_img {
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+.container_img > img{
+    width: 45%;
+    margin-right: 5%;
+
 }
