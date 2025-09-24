@@ -13,5 +13,13 @@
 }
 
 nav{
+    background-color: rgb(171, 171, 171);
+
     
+}
+
+.img_apart{
+    width: 70%;
+    margin-left:15%;
+    margin-top: 1%;
 }
